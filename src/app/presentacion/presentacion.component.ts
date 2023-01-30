@@ -20,6 +20,8 @@ export class PresentacionComponent implements OnInit {
   Portfolio = 'Portafolio';
   Services = 'Servicios';
   Contact = 'Contacto';
+  // datos de contenido
+  Skills = 'Habilidades';
   constructor(
     private _PresentacionService:PresentacionService
   ) {
