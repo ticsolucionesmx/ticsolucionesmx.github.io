@@ -22,6 +22,15 @@ export class PresentacionComponent implements OnInit {
   Contact = 'Contacto';
   // datos de contenido
   Skills = 'Habilidades';
+  // hacerca de mi
+  Birthday = 'Cumpleaños';
+  Website = 'Website';
+  Phone = 'Telefono';
+  City = 'Ciudad';
+  Age = 'Edad';
+  edadcalculo = '23/03/1991';
+  edadcalculada = this.CalculateAge();
+
   constructor(
     private _PresentacionService:PresentacionService
   ) {
@@ -31,7 +40,20 @@ export class PresentacionComponent implements OnInit {
 
   ngOnInit() {
     AOS.init();
-    window.addEventListener('load', AOS.refresh)
+    window.addEventListener('load', AOS.refresh);
+    console.log(this.edadcalculada);
   }
 
+  // funciones
+  CalculateAge(): number {
+    if (this.edadcalculo) {
+        let timeDiff = Math.abs(Date.now() - <any>this.edadcalculo);
+        return Math.ceil((timeDiff / (1000 * 3600 * 24)) / 365);
+    } else {
+        return 0;
+    }
 }
+
+}
+
+
