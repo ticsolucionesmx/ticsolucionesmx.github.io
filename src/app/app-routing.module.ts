@@ -4,8 +4,9 @@ import { PresentacionComponent } from './presentacion/presentacion.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 
 const routes: Routes = [
-  {path:'', component: PrincipalComponent},
-  {path:'presentacion', component: PresentacionComponent},
+  // {path:'', component: PrincipalComponent},
+  // {path:'presentacion', component: PresentacionComponent},
+  {path : '',component: PresentacionComponent},
   // deve de ir al final
   { path: '**', redirectTo: '', pathMatch : 'full' }
 ];
