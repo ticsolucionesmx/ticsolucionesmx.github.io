@@ -9,12 +9,14 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 // importacion servicios
 import { PresentacionService } from '../app/services/presentacion.service';
+import { PrincipalComponent } from './principal/principal.component';
 //fin  importacion servicios
 
 @NgModule({
   declarations: [
     AppComponent,
-      PresentacionComponent
+      PresentacionComponent,
+      PrincipalComponent
    ],
   imports: [
     BrowserModule,
