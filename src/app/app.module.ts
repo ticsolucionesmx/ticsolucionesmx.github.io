@@ -14,6 +14,7 @@ import { PresentacionService } from '../app/services/presentacion.service';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { AboutComponent } from './components/about/about.component';
+import { InvitacionComponent } from './invitacion/invitacion.component';
 // import { FactsComponent } from './components/facts/facts.component';
 // import { SkillsComponent } from './components/skills/skills.component';
 // import { ResumeComponent } from './components/resume/resume.component';
@@ -27,7 +28,8 @@ import { AboutComponent } from './components/about/about.component';
     AppComponent,
     PresentacionComponent,
     PrincipalComponent,
-    AboutComponent
+    AboutComponent,
+    InvitacionComponent
     // ,
     // FactsComponent,
     // SkillsComponent,
