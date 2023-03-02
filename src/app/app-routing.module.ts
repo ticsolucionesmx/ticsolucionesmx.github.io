@@ -7,8 +7,10 @@ import { InvitacionComponent } from './invitacion/invitacion.component';
 const routes: Routes = [
   // {path:'', component: PrincipalComponent},
   // {path:'presentacion', component: PresentacionComponent},
-  {path : '',component: PresentacionComponent},
-  {path : 'invitacion-de-mis-xv-isabel',component: InvitacionComponent},
+  {path : '',component: InvitacionComponent}, //a modo de manera temporar para la invitacion
+
+  // {path : '',component: PresentacionComponent},
+  // {path : 'invitacion-de-mis-xv-isabel',component: InvitacionComponent},
   // deve de ir al final
   { path: '**', redirectTo: '', pathMatch : 'full' }
 ];

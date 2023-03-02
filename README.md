@@ -29,4 +29,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## COMPILACION PARA GITHUB
 # ng build --output-path docs --base-href ticsolucionesmx.github.io
-ng build --output-path docs
+
+# ng build --output-path docs
+
+
+ng build --output-path docs --base-href invitacion-xv-isabella
