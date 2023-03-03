@@ -23,6 +23,7 @@ import { InvitacionComponent } from './invitacion/invitacion.component';
 // import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 // import { ContactComponent } from './components/contact/contact.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

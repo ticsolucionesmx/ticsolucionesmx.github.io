@@ -2,6 +2,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { InvitacionComponent } from './invitacion.component';
 
+// confetti
+
 describe('InvitacionComponent', () => {
   let component: InvitacionComponent;
   let fixture: ComponentFixture<InvitacionComponent>;
