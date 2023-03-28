@@ -1,14 +1,12 @@
 
-
+/* globales */
 html {
   min-height: 100%;
   position: relative;
 }
 body {
   font-family: "Greathy";
-
   background-image: url("../../assets/img/fondoc2.jpg");
-
   margin: 0;
   /* margin-bottom: 40px; */
 }
@@ -25,12 +23,13 @@ footer {
   border-radius: 25px;
   background-color: rgba(252, 206, 197, 0.603);
 }
-
+/* fuentes */
 @font-face {
   font-family: 'Greathy';
   src: url('../../assets/fuentes/Greathy-Regular.ttf');
 }
 
+/* navegacion  */
  .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
@@ -51,4 +50,19 @@ footer {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+/* iframe */
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:40%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
