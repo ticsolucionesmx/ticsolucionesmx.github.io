@@ -3,6 +3,7 @@ import { PresentacionService } from '../services/presentacion.service';
 import * as confetti from 'canvas-confetti';
 
 
+
 @Component({
   selector: 'app-invitacion',
   templateUrl: './invitacion.component.html',

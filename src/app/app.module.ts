@@ -23,6 +23,8 @@ import { InvitacionComponent } from './invitacion/invitacion.component';
 // import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 // import { ContactComponent } from './components/contact/contact.component';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 @NgModule({
   declarations: [
@@ -44,7 +46,8 @@ import { InvitacionComponent } from './invitacion/invitacion.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
   providers: [
     PresentacionService
