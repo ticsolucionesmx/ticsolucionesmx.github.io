@@ -14,28 +14,27 @@ import { PresentacionService } from '../app/services/presentacion.service';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { AboutComponent } from './components/about/about.component';
-// import { FactsComponent } from './components/facts/facts.component';
-// import { SkillsComponent } from './components/skills/skills.component';
-// import { ResumeComponent } from './components/resume/resume.component';
-// import { PortfolioComponent } from './components/portfolio/portfolio.component';
-// import { ServiciosComponent } from './components/servicios/servicios.component';
-// import { TestimonialsComponent } from './components/testimonials/testimonials.component';
-// import { ContactComponent } from './components/contact/contact.component';
+import { FactsComponent } from './components/facts/facts.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ResumeComponent } from './components/resume/resume.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { ServiciosComponent } from './components/servicios/servicios.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PresentacionComponent,
     PrincipalComponent,
-    AboutComponent
-    // ,
-    // FactsComponent,
-    // SkillsComponent,
-    // ResumeComponent,
-    // PortfolioComponent,
-    // ServiciosComponent,
-    // TestimonialsComponent,
-    // ContactComponent
+    AboutComponent,
+    FactsComponent,
+    SkillsComponent,
+    ResumeComponent,
+    PortfolioComponent,
+    ServiciosComponent,
+    TestimonialsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

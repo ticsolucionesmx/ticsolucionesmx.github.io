@@ -21,9 +21,11 @@ export class AboutComponent {
   Birthday = 'Cumpleaños';
   _Brithday = "23 de Marzo"
   Website = 'Website';
-  _Website = 'itsoluciones.io';
+  _Website = 'ticsolucionesmx.github.io';
   Phone = 'Telefono';
+  _Phone = '951 350 62 72';
   City = 'Ciudad';
+  _mail = 'joseramirez.jr2303@gmail.com';
   Age = 'Edad';
   edadcalculo = '23/03/1991';
   constructor () {}
