@@ -22,6 +22,10 @@ import { ServiciosComponent } from './components/servicios/servicios.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { ContactComponent } from './components/contact/contact.component';
 
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,12 +39,14 @@ import { ContactComponent } from './components/contact/contact.component';
     ServiciosComponent,
     TestimonialsComponent,
     ContactComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
   providers: [
     PresentacionService
