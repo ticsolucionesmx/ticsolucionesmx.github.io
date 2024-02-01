@@ -3,9 +3,8 @@
     <div class="section-title">
       <h2>{{ about.About }}</h2>
       <p>
-        Desarrollador de aplicaciones web y con esperiencia en el sector publico y privado, ademas de tener conocimientos en distintas
-        areas adyasnetes como es la electronica, mantenimiento, redes entre otros; esto permite ver direrentes alcances y mejores soluciones
-        de desarrollo e implementacion.
+        {{ about.About_text}}
+
       </p>
     </div>
 
@@ -14,10 +13,9 @@
         <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" />
       </div>
       <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-        <h3>UI/UX Designer &amp; Web Developer.</h3>
+        <h3> Full Stack Developer.</h3>
         <p class="fst-italic">
-          El diseño de una paguina y la funcionalidad de la misma da pauta una exelente
-          herramienta.
+        En software, bello y elegante significa fácil y barato de evolucionar y mantener
         </p>
         <div class="row">
           <div class="col-lg-6">
@@ -46,11 +44,11 @@
               <li>
                 <i class="bi bi-chevron-right"></i>
                 <strong>{{ about.Age }}:</strong>
-                <span>30</span>
+                <span>{{about.AgeCalculo}}</span>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i>
-                <strong>Degree:</strong> <span>Master</span>
+                <strong>Grado:</strong> <span>semi Senior</span>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i>

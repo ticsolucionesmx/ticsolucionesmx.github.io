@@ -26,35 +26,15 @@
         <div class="social-links mt-3 text-center">
           <a href="https://twitter.com/JoseRam91296296" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://www.facebook.com/ticsolucionesleon" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="https://www.linkedin.com/in/jose-antonio-ramirez-menodza-7593b3b8/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/jose-antonio-ramirez-menodza-7593b3b8/" class="linkedin"><i
+              class="bx bxl-linkedin"></i></a>
           <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
           <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
         </div>
       </div>
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li>
-            <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>{{ home }}</span></a>
-          </li>
-          <li>
-            <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>{{ About }}</span></a>
-          </li>
-           <li>
-            <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>{{ Resume }}</span></a>
-          </li>
-          <li>
-            <a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-              <span>{{ Portfolio }}</span></a>
-          </li>
-          <li>
-            <a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>{{ Services }}</span></a>
-          </li>
-          <li>
-            <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>{{ Contact }}</span></a>
-          </li>
-        </ul>
-      </nav>
+      <app-nav [home]="home" [About]="About" [Resume]="Resume" [Portfolio]="Portfolio" [Services]="Services"
+        [Contact]="Contact"></app-nav>
       <!-- .nav-menu -->
     </div>
     <!-- <div> -->
@@ -67,7 +47,7 @@
       <h1>{{ nombre }}</h1>
       <p>
         Soy
-        <span class="typed" data-typed-items="Diseñador, Desarrollador, Freelancer, Fotografo, Manager, Docente"></span>
+        <span class="typed" data-typed-items="Programador, Desarrollador, Freelancer, Fotografo, Manager, Docente, tester"></span>
       </p>
     </div>
   </section>
@@ -75,35 +55,35 @@
 
   <main id="main">
     <!-- ======= About Section ======= -->
-      <app-about > </app-about>
+    <app-about> </app-about>
     <!-- End About Section -->
 
     <!-- ======= Facts Section ======= -->
-    <app-facts > </app-facts>
+    <!-- <app-facts> </app-facts> -->
     <!-- End Facts Section -->
 
     <!-- ======= Skills Section ======= -->
-    <app-skills [Skills]="Skills"></app-skills>
+    <!-- <app-skills [Skills]="Skills"></app-skills> -->
     <!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
-    <app-resume [Resume]="Resume"></app-resume>
+    <!-- <app-resume [Resume]="Resume"></app-resume> -->
     <!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <app-portfolio [Portfolio]="Portfolio"></app-portfolio>
+    <!-- <app-portfolio [Portfolio]="Portfolio"></app-portfolio> -->
     <!-- End Portfolio Section -->
 
     <!-- ======= Services Section ======= -->
-    <app-servicios [Services]="Services"></app-servicios>
+    <!-- <app-servicios [Services]="Services"></app-servicios> -->
     <!-- End Services Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <app-testimonials ></app-testimonials>
+    <!-- <app-testimonials></app-testimonials> -->
     <!-- End Testimonials Section -->
 
     <!-- ======= Contact Section ======= -->
-    <app-contact [Contact]="Contact"></app-contact>
+    <!-- <app-contact [Contact]="Contact"></app-contact> -->
     <!-- End Contact Section -->
   </main>
   <!-- End #main -->

@@ -21,6 +21,7 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { NavComponent } from './components/nav/nav.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ContactComponent } from './components/contact/contact.component';
     PortfolioComponent,
     ServiciosComponent,
     TestimonialsComponent,
-    ContactComponent
+    ContactComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
