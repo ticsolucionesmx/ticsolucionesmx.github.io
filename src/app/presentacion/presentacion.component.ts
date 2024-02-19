@@ -33,7 +33,7 @@ export class PresentacionComponent implements OnInit {
   nombre = 'Jose Antonio';
   // datos navegador
   home = 'inicio';
-  About = 'Hacerca de Mi';
+  About = 'Acerca de Mi';
   Resume = 'Resumen';
   Portfolio = 'Portafolio';
   Services = 'Servicios';

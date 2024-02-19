@@ -25,9 +25,14 @@ export const initAbout: aboutInterface = {
   nombre: 'Jose Antonio',
   // datos navegador
   home: 'Inicio',
-  About: 'Hacerca de Mi',
-  About_text: `Desarrollador de aplicaciones web y apasionado en lo que hace, además de tener amor por el conocimiento en general.
-  a mi interesa cómo funciona el todo y si se puede programar claro que lo haremos.`,
+  About: 'Acerca de Mi',
+  About_text: `Como desarrollador web, mi pasión es transformar ideas en experiencias digitales cautivadoras.
+  Con maestría en lenguajes de desarrollo web, construyo interfaces intuitivas y dinámicas.
+   Mi enfoque es la eficiencia y la adaptabilidad, empleando diferentes frameworks del mercado.
+   Trabajo en colaboración para superar desafíos y entregar soluciones innovadoras.
+   La atención al detalle es fundamental, asegurando sitios web robustos y amigables.
+   Manteniéndome al tanto de las últimas tendencias, estoy comprometido con la mejora continua.
+   Soy más que un desarrollador; soy un creador que da vida a visiones digitales de manera impactante y efectiva.`,
 
   Resume: 'Resumen',
   Portfolio: 'Portafolio',
